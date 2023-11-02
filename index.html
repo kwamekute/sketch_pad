@@ -5,14 +5,32 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href='https://fonts.googleapis.com/css?family=Lobster' rel='stylesheet'>
     <link rel="stylesheet" href="style.css">
     <title>Sketch Pad</title>
 </head>
 
 <body>
     <div id="container">
-        <div id="outerPad">
-
+        <div id="logo">Sketch Pad</div>
+        <div id="innerPad">
+        </div>
+        <div id="buttons">
+            <div id="density">
+                <span class="txt">Grid density: </span>
+                <button class="btn">Small</button>
+                <button class="btn">Medium</button>
+                <button class="btn">Big</button>
+            </div>
+            <div id="mode">
+                <span class="txt">Mode: </span>
+                <button class="btn">Classic</button>
+                <button class="btn">Modern</button>
+                <button class="btn">Rainbow</button>
+            </div>
+            <button id="erase" class="btn">Erase</button>
         </div>
     </div>
     <script src="app.js"></script>
